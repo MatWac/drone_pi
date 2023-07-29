@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/matwac/drone_pi/build/mpu6050_publisher
+[  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[35m[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_generator_c[0m
+[  7%] Built target mpu6050_publisher__cpp
+[ 10%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__description.c.o[0m
+In file included from [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6[m[K:
+[01m[K/home/matwac/drone_pi/src/mpu6050_publisher/include/libmpu/MPU6050.h:46:18:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+   46 |         #include [01;31m[K<i2c/smbus.h>[m[K
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 18%] [32m[1mLinking C shared library lib/libmpu6050_publisher__rosidl_generator_c.so[0m
+running egg_info
+writing mpu6050_publisher.egg-info/PKG-INFO
+writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[ 21%] Built target mpu6050_publisher__rosidl_generator_c
+[ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+gmake: *** [Makefile:146: all] Error 2

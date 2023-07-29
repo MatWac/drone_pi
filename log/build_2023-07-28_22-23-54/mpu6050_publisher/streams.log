@@ -1,0 +1,22 @@
+[0.030s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+[0.090s] [  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[0.093s] [  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[0.103s] [  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[0.107s] [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+[0.107s]     6 | #include [01;31m[K<libmpu/MPU6050.h>[m[K
+[0.108s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.108s] compilation terminated.
+[0.109s] gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+[0.109s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+[0.110s] gmake[1]: *** Waiting for unfinished jobs....
+[0.119s] [  7%] Built target mpu6050_publisher__cpp
+[0.121s] [ 21%] Built target mpu6050_publisher__rosidl_generator_c
+[0.457s] running egg_info
+[0.459s] writing mpu6050_publisher.egg-info/PKG-INFO
+[0.459s] writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+[0.460s] writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+[0.465s] reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[0.466s] writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[0.515s] [ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[0.517s] gmake: *** [Makefile:146: all] Error 2
+[0.521s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

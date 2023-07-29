@@ -1,0 +1,5 @@
+[  2%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[  7%] Built target mpu6050_publisher__cpp
+[ 21%] Built target mpu6050_publisher__rosidl_generator_c

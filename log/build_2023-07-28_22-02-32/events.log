@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.002018] (-) JobUnselected: {'identifier': 'PID_package'}
+[0.002224] (-) JobUnselected: {'identifier': 'motor_package'}
+[0.002426] (MPU6050_package) JobQueued: {'identifier': 'MPU6050_package', 'dependencies': OrderedDict()}
+[0.003924] (MPU6050_package) JobStarted: {'identifier': 'MPU6050_package'}
+[0.046482] (MPU6050_package) JobProgress: {'identifier': 'MPU6050_package', 'progress': 'cmake'}
+[0.047119] (MPU6050_package) Command: {'cmd': ['/usr/bin/cmake', '/home/matwac/drone_pi/src/MPU6050_package', '-DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/MPU6050_package'], 'cwd': '/home/matwac/drone_pi/build/MPU6050_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matwac'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/matwac'), ('OLDPWD', '/home/matwac/drone_pi/src/MPU6050_package'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'matwac'), ('NAME', 'PC-Portable-WAC'), ('WSL_INTEROP', '/run/WSL/151_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mattw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mattw/AppData/Local/GitHubDesktop/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/matwac/drone_pi/build/MPU6050_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098768] (-) TimerEvent: {}
+[0.199500] (-) TimerEvent: {}
+[0.300270] (-) TimerEvent: {}
+[0.401164] (-) TimerEvent: {}
+[0.501727] (-) TimerEvent: {}
+[0.602993] (-) TimerEvent: {}
+[0.703729] (-) TimerEvent: {}
+[0.804349] (-) TimerEvent: {}
+[0.905020] (-) TimerEvent: {}
+[1.005566] (-) TimerEvent: {}
+[1.053658] (MPU6050_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.105744] (-) TimerEvent: {}
+[1.206367] (-) TimerEvent: {}
+[1.307063] (-) TimerEvent: {}
+[1.408031] (-) TimerEvent: {}
+[1.508899] (-) TimerEvent: {}
+[1.609841] (-) TimerEvent: {}
+[1.710549] (-) TimerEvent: {}
+[1.811257] (-) TimerEvent: {}
+[1.911801] (-) TimerEvent: {}
+[2.012412] (-) TimerEvent: {}
+[2.113420] (-) TimerEvent: {}
+[2.214908] (-) TimerEvent: {}
+[2.316024] (-) TimerEvent: {}
+[2.416803] (-) TimerEvent: {}
+[2.517606] (-) TimerEvent: {}
+[2.618421] (-) TimerEvent: {}
+[2.719509] (-) TimerEvent: {}
+[2.820365] (-) TimerEvent: {}
+[2.921043] (-) TimerEvent: {}
+[3.021763] (-) TimerEvent: {}
+[3.122493] (-) TimerEvent: {}
+[3.196377] (MPU6050_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.222644] (-) TimerEvent: {}
+[3.323534] (-) TimerEvent: {}
+[3.424222] (-) TimerEvent: {}
+[3.525118] (-) TimerEvent: {}
+[3.625903] (-) TimerEvent: {}
+[3.726815] (-) TimerEvent: {}
+[3.827457] (-) TimerEvent: {}
+[3.928159] (-) TimerEvent: {}
+[4.029029] (-) TimerEvent: {}
+[4.129674] (-) TimerEvent: {}
+[4.230472] (-) TimerEvent: {}
+[4.331317] (-) TimerEvent: {}
+[4.433273] (-) TimerEvent: {}
+[4.534375] (-) TimerEvent: {}
+[4.635183] (-) TimerEvent: {}
+[4.717799] (MPU6050_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.735401] (-) TimerEvent: {}
+[4.835950] (-) TimerEvent: {}
+[4.936671] (-) TimerEvent: {}
+[5.037329] (-) TimerEvent: {}
+[5.138068] (-) TimerEvent: {}
+[5.167510] (MPU6050_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.180224] (MPU6050_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.182985] (MPU6050_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.186022] (MPU6050_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.194448] (MPU6050_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.238284] (-) TimerEvent: {}
+[5.339028] (-) TimerEvent: {}
+[5.439857] (-) TimerEvent: {}
+[5.540813] (-) TimerEvent: {}
+[5.641637] (-) TimerEvent: {}
+[5.670470] (MPU6050_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.685823] (MPU6050_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.686271] (MPU6050_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.686925] (MPU6050_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.704371] (MPU6050_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[5.741868] (-) TimerEvent: {}
+[5.842494] (-) TimerEvent: {}
+[5.943097] (-) TimerEvent: {}
+[6.043663] (-) TimerEvent: {}
+[6.072776] (MPU6050_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[6.143861] (-) TimerEvent: {}
+[6.244339] (-) TimerEvent: {}
+[6.318704] (MPU6050_package) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[6.344525] (-) TimerEvent: {}
+[6.445153] (-) TimerEvent: {}
+[6.545909] (-) TimerEvent: {}
+[6.646623] (-) TimerEvent: {}
+[6.747292] (-) TimerEvent: {}
+[6.848164] (-) TimerEvent: {}
+[6.948732] (-) TimerEvent: {}
+[7.049806] (-) TimerEvent: {}
+[7.150494] (-) TimerEvent: {}
+[7.251130] (-) TimerEvent: {}
+[7.351969] (-) TimerEvent: {}
+[7.452810] (-) TimerEvent: {}
+[7.553538] (-) TimerEvent: {}
+[7.654259] (-) TimerEvent: {}
+[7.674839] (MPU6050_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[7.710766] (MPU6050_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[7.754444] (-) TimerEvent: {}
+[7.766749] (MPU6050_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.830893] (MPU6050_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.854732] (-) TimerEvent: {}
+[7.955215] (-) TimerEvent: {}
+[8.055816] (-) TimerEvent: {}
+[8.156428] (-) TimerEvent: {}
+[8.234079] (MPU6050_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[8.244997] (MPU6050_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.256600] (-) TimerEvent: {}
+[8.357079] (-) TimerEvent: {}
+[8.457792] (-) TimerEvent: {}
+[8.558463] (-) TimerEvent: {}
+[8.659187] (-) TimerEvent: {}
+[8.759967] (-) TimerEvent: {}
+[8.860550] (-) TimerEvent: {}
+[8.961254] (-) TimerEvent: {}
+[9.062248] (-) TimerEvent: {}
+[9.163297] (-) TimerEvent: {}
+[9.264231] (-) TimerEvent: {}
+[9.365204] (-) TimerEvent: {}
+[9.465782] (-) TimerEvent: {}
+[9.566348] (-) TimerEvent: {}
+[9.667184] (-) TimerEvent: {}
+[9.767715] (-) TimerEvent: {}
+[9.868460] (-) TimerEvent: {}
+[9.969376] (-) TimerEvent: {}
+[10.069973] (-) TimerEvent: {}
+[10.170609] (-) TimerEvent: {}
+[10.271231] (-) TimerEvent: {}
+[10.371975] (-) TimerEvent: {}
+[10.472614] (-) TimerEvent: {}
+[10.573394] (-) TimerEvent: {}
+[10.674062] (-) TimerEvent: {}
+[10.774797] (-) TimerEvent: {}
+[10.875355] (-) TimerEvent: {}
+[10.976318] (-) TimerEvent: {}
+[11.077024] (-) TimerEvent: {}
+[11.178149] (-) TimerEvent: {}
+[11.279328] (-) TimerEvent: {}
+[11.380256] (-) TimerEvent: {}
+[11.481294] (-) TimerEvent: {}
+[11.582682] (-) TimerEvent: {}
+[11.683543] (-) TimerEvent: {}
+[11.784346] (-) TimerEvent: {}
+[11.885226] (-) TimerEvent: {}
+[11.986154] (-) TimerEvent: {}
+[12.087180] (-) TimerEvent: {}
+[12.188873] (-) TimerEvent: {}
+[12.290647] (-) TimerEvent: {}
+[12.392960] (-) TimerEvent: {}
+[12.496616] (-) TimerEvent: {}
+[12.598585] (-) TimerEvent: {}
+[12.700081] (-) TimerEvent: {}
+[12.801139] (-) TimerEvent: {}
+[12.902083] (-) TimerEvent: {}
+[12.967894] (MPU6050_package) CommandEnded: {'returncode': -2}
+[12.979921] (MPU6050_package) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 112, in get_buildfile\n    if \'Ninja\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[12.980693] (MPU6050_package) JobEnded: {'identifier': 'MPU6050_package', 'rc': 'SIGINT'}
+[12.991324] (-) EventReactorShutdown: {}

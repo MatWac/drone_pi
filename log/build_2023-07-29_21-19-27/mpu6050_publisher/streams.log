@@ -1,0 +1,50 @@
+[0.063s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+[0.182s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.586s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[2.019s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.044s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.437s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.444s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[27.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.622s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[27.689s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[27.703s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[28.441s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[29.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[29.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.465s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[29.521s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[29.521s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[29.521s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[29.592s] -- Configuring done
+[29.781s] -- Generating done
+[29.800s] -- Build files have been written to: /home/matwac/drone_pi/build/mpu6050_publisher
+[29.893s] [  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[29.899s] [  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[29.912s] [  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[29.922s] [35m[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_generator_c[0m
+[29.938s] [  7%] Built target mpu6050_publisher__cpp
+[29.952s] [ 10%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__functions.c.o[0m
+[29.953s] [ 13%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__type_support.c.o[0m
+[29.954s] [ 15%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__description.c.o[0m
+[30.130s] In file included from [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6[m[K:
+[30.130s] [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/include/libmpu/MPU6050.h:46:18:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[30.130s]    46 |         #include [01;31m[K<i2c/smbus.h>[m[K
+[30.130s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[30.130s] compilation terminated.
+[30.133s] gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+[30.134s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+[30.134s] gmake[1]: *** Waiting for unfinished jobs....
+[30.142s] [ 18%] [32m[1mLinking C shared library lib/libmpu6050_publisher__rosidl_generator_c.so[0m
+[30.653s] running egg_info
+[30.655s] writing mpu6050_publisher.egg-info/PKG-INFO
+[30.656s] writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+[30.657s] writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+[30.665s] reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[30.667s] writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[30.703s] [ 21%] Built target mpu6050_publisher__rosidl_generator_c
+[30.739s] [ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[30.740s] gmake: *** [Makefile:146: all] Error 2
+[30.745s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

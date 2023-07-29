@@ -1,0 +1,20 @@
+[  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+    6 | #include [01;31m[K<libmpu/MPU6050.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  7%] Built target mpu6050_publisher__cpp
+[ 21%] Built target mpu6050_publisher__rosidl_generator_c
+running egg_info
+writing mpu6050_publisher.egg-info/PKG-INFO
+writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+gmake: *** [Makefile:146: all] Error 2

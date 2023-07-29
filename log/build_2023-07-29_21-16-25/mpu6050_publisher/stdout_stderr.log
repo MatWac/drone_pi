@@ -1,0 +1,40 @@
+[  2%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[ 18%] Built target mpu6050_publisher__rosidl_generator_c
+[ 21%] Built target mpu6050_publisher__cpp
+[01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+    6 | #include [01;31m[K"libmpu/MPU6050.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+running egg_info
+writing mpu6050_publisher.egg-info/PKG-INFO
+writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[ 36%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/mpu6050_publisher/msg/angles__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mpu6050_publisher/msg/angles__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mpu6050_publisher/msg/detail/angles__type_support.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mpu6050_publisher/msg/detail/angles__type_support_c.cpp.o[0m
+[ 44%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[ 47%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mpu6050_publisher/msg/detail/dds_fastrtps/angles__type_support.cpp.o[0m
+[ 52%] [32m[1mLinking C shared library lib/libmpu6050_publisher__rosidl_typesupport_introspection_c.so[0m
+[ 52%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_c.so[0m
+[ 52%] Built target mpu6050_publisher__rosidl_typesupport_introspection_c
+[ 52%] Built target mpu6050_publisher__rosidl_typesupport_c
+[ 55%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[ 57%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_cpp.so[0m
+[ 60%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 60%] Built target mpu6050_publisher__rosidl_typesupport_cpp
+[ 60%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_c
+[ 60%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_cpp
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+setup.py
+mpu6050_publisher/__init__.py
+mpu6050_publisher.egg-info/PKG-INFO
+mpu6050_publisher.egg-info/SOURCES.txt
+mpu6050_publisher.egg-info/dependency_links.txt
+mpu6050_publisher.egg-info/top_level.txt

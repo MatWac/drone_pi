@@ -1,0 +1,7 @@
+{
+  "package_name": "mpu6050_publisher",
+  "output_dir": "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_generator_type_description/mpu6050_publisher",
+  "idl_tuples": [
+    "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_adapter/mpu6050_publisher:msg/Angles.idl"
+  ]
+}

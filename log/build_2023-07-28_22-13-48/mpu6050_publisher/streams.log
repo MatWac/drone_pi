@@ -1,0 +1,36 @@
+[0.064s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/mpu6050_publisher -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/mpu6050_publisher
+[0.091s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.341s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.804s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.833s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.874s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.184s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.186s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[20.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.068s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[21.118s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[21.129s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[21.596s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[22.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.258s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[22.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.297s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[22.297s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[22.321s] -- Configuring done
+[22.326s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[22.326s]   Cannot find source file:
+[22.326s] 
+[22.326s]     src/mpu6050_publisher.cpp
+[22.327s] 
+[22.327s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[22.327s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[22.327s] 
+[22.327s] [0m
+[22.333s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[22.333s]   No SOURCES given to target: mpupub
+[22.333s] 
+[22.334s] [0m
+[22.334s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[22.358s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/mpu6050_publisher -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/mpu6050_publisher

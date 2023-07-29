@@ -1,0 +1,45 @@
+[0.034s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+[0.078s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.344s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.827s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.841s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.164s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[21.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.447s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[21.510s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[21.523s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[22.065s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[22.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.821s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[22.861s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.861s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[22.861s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[22.896s] -- Configuring done
+[23.001s] -- Generating done
+[23.009s] -- Build files have been written to: /home/matwac/drone_pi/build/mpu6050_publisher
+[23.081s] [  2%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[23.083s] [  5%] Built target mpu6050_publisher__rosidl_generator_type_description
+[23.095s] [  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[23.099s] [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+[23.099s]     6 | #include [01;31m[K"libmpu/MPU6050.h"[m[K
+[23.099s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[23.099s] compilation terminated.
+[23.101s] gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+[23.102s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+[23.102s] gmake[1]: *** Waiting for unfinished jobs....
+[23.108s] [35m[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_generator_c[0m
+[23.118s] [  7%] Built target mpu6050_publisher__cpp
+[23.129s] [ 21%] Built target mpu6050_publisher__rosidl_generator_c
+[23.574s] running egg_info
+[23.583s] writing mpu6050_publisher.egg-info/PKG-INFO
+[23.584s] writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+[23.585s] writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+[23.590s] reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[23.594s] writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[23.700s] [ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[23.702s] gmake: *** [Makefile:146: all] Error 2
+[23.706s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

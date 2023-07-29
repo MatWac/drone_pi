@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mpu6050_publisher/msg/Angles",
+      "fields": [
+        {
+          "name": "anglex",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "angley",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mpu6050_publisher/msg/Angles",
+      "hash_string": "RIHS01_8b64b584066e06d1883b79a5309090ad939ae80b5ccb101baf9bbe691be96c73"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "package_name": "mpu6050_publisher",
+  "output_dir": "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_typesupport_cpp/mpu6050_publisher",
+  "template_dir": "/opt/ros/iron/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_adapter/mpu6050_publisher:msg/Angles.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/iron/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/iron/lib/python3.10/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/iron/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_adapter/mpu6050_publisher/msg/Angles.idl"
+  ]
+}

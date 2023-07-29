@@ -1,0 +1,8 @@
+[01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+    6 | #include [01;31m[K<libmpu/MPU6050.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

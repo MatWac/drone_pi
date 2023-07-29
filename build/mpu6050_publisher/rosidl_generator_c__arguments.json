@@ -1,0 +1,36 @@
+{
+  "package_name": "mpu6050_publisher",
+  "output_dir": "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_generator_c/mpu6050_publisher",
+  "template_dir": "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_adapter/mpu6050_publisher:msg/Angles.idl"
+  ],
+  "ros_interface_files": [
+    "/home/matwac/drone_pi/src/mpu6050_publisher/msg/Angles.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_adapter/mpu6050_publisher/msg/Angles.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Angles.idl:/home/matwac/drone_pi/build/mpu6050_publisher/rosidl_generator_type_description/mpu6050_publisher/msg/Angles.json"
+  ]
+}

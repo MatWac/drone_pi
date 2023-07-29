@@ -1,0 +1,42 @@
+[0.057s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+[0.306s] [  2%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[0.332s] [  5%] Built target mpu6050_publisher__rosidl_generator_type_description
+[0.364s] [  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[0.384s] [ 18%] Built target mpu6050_publisher__rosidl_generator_c
+[0.400s] [ 21%] Built target mpu6050_publisher__cpp
+[0.408s] [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klibmpu/MPU6050.h: No such file or directory
+[0.409s]     6 | #include [01;31m[K"libmpu/MPU6050.h"[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.409s] compilation terminated.
+[0.413s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.415s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.417s] gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+[0.421s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+[0.421s] gmake[1]: *** Waiting for unfinished jobs....
+[0.422s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.429s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.470s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.411s] running egg_info
+[1.414s] writing mpu6050_publisher.egg-info/PKG-INFO
+[1.428s] writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+[1.431s] writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+[1.444s] reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[1.459s] writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[1.466s] [ 36%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/mpu6050_publisher/msg/angles__type_support.cpp.o[0m
+[1.488s] [ 39%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mpu6050_publisher/msg/angles__type_support.cpp.o[0m
+[1.532s] [ 42%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mpu6050_publisher/msg/detail/angles__type_support.c.o[0m
+[1.560s] [ 44%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mpu6050_publisher/msg/detail/angles__type_support_c.cpp.o[0m
+[1.566s] [ 44%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[1.579s] [ 47%] [32mBuilding CXX object CMakeFiles/mpu6050_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mpu6050_publisher/msg/detail/dds_fastrtps/angles__type_support.cpp.o[0m
+[1.822s] [ 52%] [32m[1mLinking C shared library lib/libmpu6050_publisher__rosidl_typesupport_introspection_c.so[0m
+[1.822s] [ 52%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_c.so[0m
+[2.373s] [ 52%] Built target mpu6050_publisher__rosidl_typesupport_introspection_c
+[2.390s] [ 52%] Built target mpu6050_publisher__rosidl_typesupport_c
+[2.829s] [ 55%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[3.003s] [ 57%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_cpp.so[0m
+[3.398s] [ 60%] [32m[1mLinking CXX shared library lib/libmpu6050_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.580s] [ 60%] Built target mpu6050_publisher__rosidl_typesupport_cpp
+[3.603s] [ 60%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_c
+[4.000s] [ 60%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_cpp
+[4.001s] gmake: *** [Makefile:146: all] Error 2
+[4.009s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

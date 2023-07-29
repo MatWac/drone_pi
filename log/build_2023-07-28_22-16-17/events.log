@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.000838] (-) JobUnselected: {'identifier': 'PID_package'}
+[0.000966] (-) JobUnselected: {'identifier': 'motor_package'}
+[0.001075] (mpu6050_publisher) JobQueued: {'identifier': 'mpu6050_publisher', 'dependencies': OrderedDict()}
+[0.003116] (mpu6050_publisher) JobStarted: {'identifier': 'mpu6050_publisher'}
+[0.017987] (mpu6050_publisher) JobProgress: {'identifier': 'mpu6050_publisher', 'progress': 'cmake'}
+[0.019259] (mpu6050_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/matwac/drone_pi/src/mpu6050_publisher', '-DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/mpu6050_publisher'], 'cwd': '/home/matwac/drone_pi/build/mpu6050_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matwac'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/matwac'), ('OLDPWD', '/home/matwac/drone_pi/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'matwac'), ('NAME', 'PC-Portable-WAC'), ('WSL_INTEROP', '/run/WSL/151_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mattw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mattw/AppData/Local/GitHubDesktop/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/matwac/drone_pi/build/mpu6050_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.036900] (mpu6050_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099525] (-) TimerEvent: {}
+[0.200062] (-) TimerEvent: {}
+[0.230241] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.300484] (-) TimerEvent: {}
+[0.401343] (-) TimerEvent: {}
+[0.501964] (-) TimerEvent: {}
+[0.602669] (-) TimerEvent: {}
+[0.670145] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.682078] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.702856] (-) TimerEvent: {}
+[0.708533] (mpu6050_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.734420] (mpu6050_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803068] (-) TimerEvent: {}
+[0.903586] (-) TimerEvent: {}
+[0.978434] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.980228] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003872] (-) TimerEvent: {}
+[1.104628] (-) TimerEvent: {}
+[1.205506] (-) TimerEvent: {}
+[1.306269] (-) TimerEvent: {}
+[1.407558] (-) TimerEvent: {}
+[1.508088] (-) TimerEvent: {}
+[1.608613] (-) TimerEvent: {}
+[1.709301] (-) TimerEvent: {}
+[1.810347] (-) TimerEvent: {}
+[1.911492] (-) TimerEvent: {}
+[2.012068] (-) TimerEvent: {}
+[2.113078] (-) TimerEvent: {}
+[2.213835] (-) TimerEvent: {}
+[2.314481] (-) TimerEvent: {}
+[2.415247] (-) TimerEvent: {}
+[2.515956] (-) TimerEvent: {}
+[2.616766] (-) TimerEvent: {}
+[2.717280] (-) TimerEvent: {}
+[2.817856] (-) TimerEvent: {}
+[2.918406] (-) TimerEvent: {}
+[3.018907] (-) TimerEvent: {}
+[3.119614] (-) TimerEvent: {}
+[3.220610] (-) TimerEvent: {}
+[3.321948] (-) TimerEvent: {}
+[3.422715] (-) TimerEvent: {}
+[3.523383] (-) TimerEvent: {}
+[3.624045] (-) TimerEvent: {}
+[3.725196] (-) TimerEvent: {}
+[3.825774] (-) TimerEvent: {}
+[3.926715] (-) TimerEvent: {}
+[4.027550] (-) TimerEvent: {}
+[4.128338] (-) TimerEvent: {}
+[4.228958] (-) TimerEvent: {}
+[4.329599] (-) TimerEvent: {}
+[4.430162] (-) TimerEvent: {}
+[4.530832] (-) TimerEvent: {}
+[4.631554] (-) TimerEvent: {}
+[4.732380] (-) TimerEvent: {}
+[4.833147] (-) TimerEvent: {}
+[4.933783] (-) TimerEvent: {}
+[5.034521] (-) TimerEvent: {}
+[5.135104] (-) TimerEvent: {}
+[5.235840] (-) TimerEvent: {}
+[5.336479] (-) TimerEvent: {}
+[5.437357] (-) TimerEvent: {}
+[5.538047] (-) TimerEvent: {}
+[5.638596] (-) TimerEvent: {}
+[5.739838] (-) TimerEvent: {}
+[5.840514] (-) TimerEvent: {}
+[5.941178] (-) TimerEvent: {}
+[6.041853] (-) TimerEvent: {}
+[6.142627] (-) TimerEvent: {}
+[6.243241] (-) TimerEvent: {}
+[6.344021] (-) TimerEvent: {}
+[6.444742] (-) TimerEvent: {}
+[6.545575] (-) TimerEvent: {}
+[6.646409] (-) TimerEvent: {}
+[6.747314] (-) TimerEvent: {}
+[6.847904] (-) TimerEvent: {}
+[6.948750] (-) TimerEvent: {}
+[7.049574] (-) TimerEvent: {}
+[7.150202] (-) TimerEvent: {}
+[7.250825] (-) TimerEvent: {}
+[7.351436] (-) TimerEvent: {}
+[7.452276] (-) TimerEvent: {}
+[7.553321] (-) TimerEvent: {}
+[7.654489] (-) TimerEvent: {}
+[7.755072] (-) TimerEvent: {}
+[7.855868] (-) TimerEvent: {}
+[7.956581] (-) TimerEvent: {}
+[8.057400] (-) TimerEvent: {}
+[8.158099] (-) TimerEvent: {}
+[8.258812] (-) TimerEvent: {}
+[8.359683] (-) TimerEvent: {}
+[8.460499] (-) TimerEvent: {}
+[8.561766] (-) TimerEvent: {}
+[8.662602] (-) TimerEvent: {}
+[8.763236] (-) TimerEvent: {}
+[8.863948] (-) TimerEvent: {}
+[8.964674] (-) TimerEvent: {}
+[9.065360] (-) TimerEvent: {}
+[9.165991] (-) TimerEvent: {}
+[9.266597] (-) TimerEvent: {}
+[9.367630] (-) TimerEvent: {}
+[9.468935] (-) TimerEvent: {}
+[9.569914] (-) TimerEvent: {}
+[9.670580] (-) TimerEvent: {}
+[9.771448] (-) TimerEvent: {}
+[9.872143] (-) TimerEvent: {}
+[9.972875] (-) TimerEvent: {}
+[10.073812] (-) TimerEvent: {}
+[10.174649] (-) TimerEvent: {}
+[10.275337] (-) TimerEvent: {}
+[10.375993] (-) TimerEvent: {}
+[10.476790] (-) TimerEvent: {}
+[10.577335] (-) TimerEvent: {}
+[10.678139] (-) TimerEvent: {}
+[10.779027] (-) TimerEvent: {}
+[10.879613] (-) TimerEvent: {}
+[10.980240] (-) TimerEvent: {}
+[11.080861] (-) TimerEvent: {}
+[11.181673] (-) TimerEvent: {}
+[11.282491] (-) TimerEvent: {}
+[11.383484] (-) TimerEvent: {}
+[11.484450] (-) TimerEvent: {}
+[11.585582] (-) TimerEvent: {}
+[11.686297] (-) TimerEvent: {}
+[11.787217] (-) TimerEvent: {}
+[11.888191] (-) TimerEvent: {}
+[11.988734] (-) TimerEvent: {}
+[12.089840] (-) TimerEvent: {}
+[12.190579] (-) TimerEvent: {}
+[12.291405] (-) TimerEvent: {}
+[12.391955] (-) TimerEvent: {}
+[12.492571] (-) TimerEvent: {}
+[12.593186] (-) TimerEvent: {}
+[12.693948] (-) TimerEvent: {}
+[12.794481] (-) TimerEvent: {}
+[12.895043] (-) TimerEvent: {}
+[12.995732] (-) TimerEvent: {}
+[13.096481] (-) TimerEvent: {}
+[13.197204] (-) TimerEvent: {}
+[13.297896] (-) TimerEvent: {}
+[13.398771] (-) TimerEvent: {}
+[13.499710] (-) TimerEvent: {}
+[13.600872] (-) TimerEvent: {}
+[13.701693] (-) TimerEvent: {}
+[13.802393] (-) TimerEvent: {}
+[13.903160] (-) TimerEvent: {}
+[14.003948] (-) TimerEvent: {}
+[14.104570] (-) TimerEvent: {}
+[14.205118] (-) TimerEvent: {}
+[14.305745] (-) TimerEvent: {}
+[14.406632] (-) TimerEvent: {}
+[14.507429] (-) TimerEvent: {}
+[14.607955] (-) TimerEvent: {}
+[14.708583] (-) TimerEvent: {}
+[14.809215] (-) TimerEvent: {}
+[14.909817] (-) TimerEvent: {}
+[15.010463] (-) TimerEvent: {}
+[15.111262] (-) TimerEvent: {}
+[15.212041] (-) TimerEvent: {}
+[15.312698] (-) TimerEvent: {}
+[15.413435] (-) TimerEvent: {}
+[15.514229] (-) TimerEvent: {}
+[15.614979] (-) TimerEvent: {}
+[15.716103] (-) TimerEvent: {}
+[15.816983] (-) TimerEvent: {}
+[15.917637] (-) TimerEvent: {}
+[16.018373] (-) TimerEvent: {}
+[16.118998] (-) TimerEvent: {}
+[16.219725] (-) TimerEvent: {}
+[16.320386] (-) TimerEvent: {}
+[16.421180] (-) TimerEvent: {}
+[16.521930] (-) TimerEvent: {}
+[16.622552] (-) TimerEvent: {}
+[16.723076] (-) TimerEvent: {}
+[16.823779] (-) TimerEvent: {}
+[16.924495] (-) TimerEvent: {}
+[17.025169] (-) TimerEvent: {}
+[17.125819] (-) TimerEvent: {}
+[17.226462] (-) TimerEvent: {}
+[17.327017] (-) TimerEvent: {}
+[17.427518] (-) TimerEvent: {}
+[17.528009] (-) TimerEvent: {}
+[17.628641] (-) TimerEvent: {}
+[17.729376] (-) TimerEvent: {}
+[17.829986] (-) TimerEvent: {}
+[17.930770] (-) TimerEvent: {}
+[18.031363] (-) TimerEvent: {}
+[18.132051] (-) TimerEvent: {}
+[18.232705] (-) TimerEvent: {}
+[18.333259] (-) TimerEvent: {}
+[18.433856] (-) TimerEvent: {}
+[18.534512] (-) TimerEvent: {}
+[18.635128] (-) TimerEvent: {}
+[18.735709] (-) TimerEvent: {}
+[18.836304] (-) TimerEvent: {}
+[18.936932] (-) TimerEvent: {}
+[19.037586] (-) TimerEvent: {}
+[19.138133] (-) TimerEvent: {}
+[19.238698] (-) TimerEvent: {}
+[19.339299] (-) TimerEvent: {}
+[19.439849] (-) TimerEvent: {}
+[19.540427] (-) TimerEvent: {}
+[19.641133] (-) TimerEvent: {}
+[19.741788] (-) TimerEvent: {}
+[19.842342] (-) TimerEvent: {}
+[19.942886] (-) TimerEvent: {}
+[20.043420] (-) TimerEvent: {}
+[20.144064] (-) TimerEvent: {}
+[20.244618] (-) TimerEvent: {}
+[20.345260] (-) TimerEvent: {}
+[20.361833] (mpu6050_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.445575] (-) TimerEvent: {}
+[20.546324] (-) TimerEvent: {}
+[20.647075] (-) TimerEvent: {}
+[20.660762] (mpu6050_publisher) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[20.713614] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[20.724920] (mpu6050_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[20.747263] (-) TimerEvent: {}
+[20.847867] (-) TimerEvent: {}
+[20.948390] (-) TimerEvent: {}
+[21.049078] (-) TimerEvent: {}
+[21.149692] (-) TimerEvent: {}
+[21.186389] (mpu6050_publisher) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[21.249871] (-) TimerEvent: {}
+[21.350434] (-) TimerEvent: {}
+[21.451107] (-) TimerEvent: {}
+[21.551745] (-) TimerEvent: {}
+[21.635043] (mpu6050_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.651917] (-) TimerEvent: {}
+[21.752466] (-) TimerEvent: {}
+[21.827133] (mpu6050_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.852693] (-) TimerEvent: {}
+[21.866418] (mpu6050_publisher) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[21.900339] (mpu6050_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[21.900735] (mpu6050_publisher) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[21.900978] (mpu6050_publisher) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[21.925126] (mpu6050_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.952874] (-) TimerEvent: {}
+[22.018515] (mpu6050_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[22.024266] (mpu6050_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/matwac/drone_pi/build/mpu6050_publisher\n'}
+[22.043066] (mpu6050_publisher) CommandEnded: {'returncode': 0}
+[22.044095] (mpu6050_publisher) JobProgress: {'identifier': 'mpu6050_publisher', 'progress': 'build'}
+[22.047866] (mpu6050_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matwac/drone_pi/build/mpu6050_publisher', '--', '-j8', '-l8'], 'cwd': '/home/matwac/drone_pi/build/mpu6050_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matwac'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/matwac'), ('OLDPWD', '/home/matwac/drone_pi/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'matwac'), ('NAME', 'PC-Portable-WAC'), ('WSL_INTEROP', '/run/WSL/151_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mattw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mattw/AppData/Local/GitHubDesktop/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/matwac/drone_pi/build/mpu6050_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[22.053154] (-) TimerEvent: {}
+[22.115923] (mpu6050_publisher) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[22.116593] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o\x1b[0m\n'}
+[22.127081] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_mpu6050_publisher\n'}
+[22.137554] (mpu6050_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KMPU6050.h: No such file or directory\n'}
+[22.137951] (mpu6050_publisher) StderrLine: {'line': b'    6 | #include \x1b[01;31m\x1b[K"MPU6050.h"\x1b[m\x1b[K\n'}
+[22.138260] (mpu6050_publisher) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.138548] (mpu6050_publisher) StderrLine: {'line': b'compilation terminated.\n'}
+[22.139225] (mpu6050_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1\n'}
+[22.139823] (mpu6050_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2\n'}
+[22.140152] (mpu6050_publisher) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[22.153345] (-) TimerEvent: {}
+[22.253942] (-) TimerEvent: {}
+[22.354517] (-) TimerEvent: {}
+[22.455107] (-) TimerEvent: {}
+[22.555675] (-) TimerEvent: {}
+[22.569380] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] Built target mpu6050_publisher__rosidl_generator_type_description\n'}
+[22.587971] (mpu6050_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[22.589214] (mpu6050_publisher) StdoutLine: {'line': b'creating mpu6050_publisher.egg-info\n'}
+[22.589882] (mpu6050_publisher) StdoutLine: {'line': b'writing mpu6050_publisher.egg-info/PKG-INFO\n'}
+[22.590258] (mpu6050_publisher) StdoutLine: {'line': b'writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt\n'}
+[22.590528] (mpu6050_publisher) StdoutLine: {'line': b'writing top-level names to mpu6050_publisher.egg-info/top_level.txt\n'}
+[22.590915] (mpu6050_publisher) StdoutLine: {'line': b"writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'\n"}
+[22.598206] (mpu6050_publisher) StdoutLine: {'line': b"reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'\n"}
+[22.599042] (mpu6050_publisher) StdoutLine: {'line': b"writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'\n"}
+[22.648374] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_mpu6050_publisher_egg\n'}
+[22.650043] (mpu6050_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.653539] (mpu6050_publisher) CommandEnded: {'returncode': 2}
+[22.656089] (-) TimerEvent: {}
+[22.756481] (-) TimerEvent: {}
+[22.779956] (mpu6050_publisher) JobEnded: {'identifier': 'mpu6050_publisher', 'rc': 2}
+[22.783985] (-) EventReactorShutdown: {}

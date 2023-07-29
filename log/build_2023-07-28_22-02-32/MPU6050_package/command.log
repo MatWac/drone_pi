@@ -1,0 +1,2 @@
+Invoking command in '/home/matwac/drone_pi/build/MPU6050_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/MPU6050_package -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/MPU6050_package
+Invoked command in '/home/matwac/drone_pi/build/MPU6050_package' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/MPU6050_package -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/MPU6050_package

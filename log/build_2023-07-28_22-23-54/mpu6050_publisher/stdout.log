@@ -1,0 +1,12 @@
+[  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[  7%] Built target mpu6050_publisher__cpp
+[ 21%] Built target mpu6050_publisher__rosidl_generator_c
+running egg_info
+writing mpu6050_publisher.egg-info/PKG-INFO
+writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[ 21%] Built target ament_cmake_python_build_mpu6050_publisher_egg

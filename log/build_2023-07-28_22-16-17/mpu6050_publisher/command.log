@@ -1,0 +1,4 @@
+Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/mpu6050_publisher -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/mpu6050_publisher
+Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/matwac/drone_pi/src/mpu6050_publisher -DCMAKE_INSTALL_PREFIX=/home/matwac/drone_pi/install/mpu6050_publisher
+Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

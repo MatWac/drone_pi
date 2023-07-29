@@ -1,0 +1,11 @@
+[  2%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[  5%] Built target mpu6050_publisher__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_mpu6050_publisher
+[  7%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 10%] Built target mpu6050_publisher__cpp
+[ 13%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mpu6050_publisher__rosidl_generator_c.dir/rosidl_generator_c/mpu6050_publisher/msg/detail/angles__functions.c.o[0m
+[ 21%] [32m[1mLinking C shared library lib/libmpu6050_publisher__rosidl_generator_c.so[0m
+[ 21%] Built target mpu6050_publisher__rosidl_generator_c

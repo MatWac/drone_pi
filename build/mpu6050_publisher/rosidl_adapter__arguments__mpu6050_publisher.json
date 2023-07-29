@@ -1,0 +1,6 @@
+{
+  "package_name": "mpu6050_publisher",
+  "non_idl_tuples": [
+    "/home/matwac/drone_pi/src/mpu6050_publisher:msg/Angles.msg"
+  ]
+}

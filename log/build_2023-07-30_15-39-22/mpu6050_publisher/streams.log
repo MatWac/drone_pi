@@ -1,0 +1,32 @@
+[0.035s] Invoking command in '/home/matwac/drone_pi/build/mpu6050_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8
+[0.099s] [  2%] Built target mpu6050_publisher__rosidl_generator_type_description
+[0.109s] [  2%] Built target ament_cmake_python_copy_mpu6050_publisher
+[0.110s] [  5%] [32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o[0m
+[0.132s] [ 10%] Built target mpu6050_publisher__cpp
+[0.132s] [ 21%] Built target mpu6050_publisher__rosidl_generator_c
+[0.181s] [ 28%] Built target mpu6050_publisher__rosidl_typesupport_introspection_c
+[0.181s] [ 36%] Built target mpu6050_publisher__rosidl_typesupport_cpp
+[0.182s] [ 52%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_cpp
+[0.182s] [ 52%] Built target mpu6050_publisher__rosidl_typesupport_c
+[0.182s] [ 60%] Built target mpu6050_publisher__rosidl_typesupport_introspection_cpp
+[0.182s] [ 68%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_c
+[0.217s] [ 68%] Built target mpu6050_publisher
+[0.220s] In file included from [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6[m[K:
+[0.220s] [01m[K/home/matwac/drone_pi/src/mpu6050_publisher/include/libmpu/MPU6050.h:46:18:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[0.220s]    46 |         #include [01;31m[K<i2c/smbus.h>[m[K
+[0.220s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[0.221s] compilation terminated.
+[0.223s] gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1
+[0.223s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2
+[0.223s] gmake[1]: *** Waiting for unfinished jobs....
+[0.260s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.672s] running egg_info
+[0.674s] writing mpu6050_publisher.egg-info/PKG-INFO
+[0.675s] writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt
+[0.675s] writing top-level names to mpu6050_publisher.egg-info/top_level.txt
+[0.680s] reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[0.683s] writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'
+[0.740s] [ 71%] Built target ament_cmake_python_build_mpu6050_publisher_egg
+[1.000s] [ 71%] Built target mpu6050_publisher__py
+[1.002s] gmake: *** [Makefile:146: all] Error 2
+[1.008s] Invoked command in '/home/matwac/drone_pi/build/mpu6050_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/matwac/drone_pi/build/mpu6050_publisher -- -j8 -l8

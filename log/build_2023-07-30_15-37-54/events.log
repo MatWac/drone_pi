@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.001719] (-) JobUnselected: {'identifier': 'PID_package'}
+[0.001870] (-) JobUnselected: {'identifier': 'motor_package'}
+[0.001991] (mpu6050_publisher) JobQueued: {'identifier': 'mpu6050_publisher', 'dependencies': OrderedDict()}
+[0.002110] (mpu6050_publisher) JobStarted: {'identifier': 'mpu6050_publisher'}
+[0.026956] (mpu6050_publisher) JobProgress: {'identifier': 'mpu6050_publisher', 'progress': 'cmake'}
+[0.028847] (mpu6050_publisher) JobProgress: {'identifier': 'mpu6050_publisher', 'progress': 'build'}
+[0.031785] (mpu6050_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matwac/drone_pi/build/mpu6050_publisher', '--', '-j8', '-l8'], 'cwd': '/home/matwac/drone_pi/build/mpu6050_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matwac'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/matwac'), ('OLDPWD', '/home/matwac'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'matwac'), ('NAME', 'PC-Portable-WAC'), ('WSL_INTEROP', '/run/WSL/15_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mattw/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mattw/AppData/Local/GitHubDesktop/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/matwac/drone_pi/build/mpu6050_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098784] (-) TimerEvent: {}
+[0.120111] (mpu6050_publisher) StdoutLine: {'line': b'[  2%] Built target mpu6050_publisher__rosidl_generator_type_description\n'}
+[0.121078] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/mpu.dir/src/MPU6050.cpp.o\x1b[0m\n'}
+[0.137100] (mpu6050_publisher) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_mpu6050_publisher\n'}
+[0.153306] (mpu6050_publisher) StdoutLine: {'line': b'[  7%] Built target mpu6050_publisher__cpp\n'}
+[0.161604] (mpu6050_publisher) StdoutLine: {'line': b'[ 21%] Built target mpu6050_publisher__rosidl_generator_c\n'}
+[0.183552] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.185879] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_c\x1b[0m\n'}
+[0.195953] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.196401] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.196679] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.196952] (mpu6050_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6050_publisher__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.198959] (-) TimerEvent: {}
+[0.218273] (mpu6050_publisher) StdoutLine: {'line': b'[ 28%] Built target mpu6050_publisher__rosidl_typesupport_c\n'}
+[0.221737] (mpu6050_publisher) StdoutLine: {'line': b'[ 36%] Built target mpu6050_publisher__rosidl_typesupport_introspection_cpp\n'}
+[0.222406] (mpu6050_publisher) StdoutLine: {'line': b'[ 52%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_c\n'}
+[0.222765] (mpu6050_publisher) StdoutLine: {'line': b'[ 52%] Built target mpu6050_publisher__rosidl_typesupport_introspection_c\n'}
+[0.227233] (mpu6050_publisher) StdoutLine: {'line': b'[ 60%] Built target mpu6050_publisher__rosidl_typesupport_cpp\n'}
+[0.231987] (mpu6050_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/matwac/drone_pi/src/mpu6050_publisher/src/MPU6050.cpp:6\x1b[m\x1b[K:\n'}
+[0.232349] (mpu6050_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matwac/drone_pi/src/mpu6050_publisher/include/libmpu/MPU6050.h:46:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ki2c/smbus.h: No such file or directory\n'}
+[0.232530] (mpu6050_publisher) StderrLine: {'line': b'   46 |         #include \x1b[01;31m\x1b[K<i2c/smbus.h>\x1b[m\x1b[K\n'}
+[0.232688] (mpu6050_publisher) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.232838] (mpu6050_publisher) StderrLine: {'line': b'compilation terminated.\n'}
+[0.234938] (mpu6050_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpu.dir/build.make:76: CMakeFiles/mpu.dir/src/MPU6050.cpp.o] Error 1\n'}
+[0.235869] (mpu6050_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/mpu.dir/all] Error 2\n'}
+[0.236161] (mpu6050_publisher) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.236354] (mpu6050_publisher) StdoutLine: {'line': b'[ 68%] Built target mpu6050_publisher__rosidl_typesupport_fastrtps_cpp\n'}
+[0.299194] (-) TimerEvent: {}
+[0.399778] (-) TimerEvent: {}
+[0.500437] (-) TimerEvent: {}
+[0.600944] (-) TimerEvent: {}
+[0.614177] (mpu6050_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[0.615468] (mpu6050_publisher) StdoutLine: {'line': b'writing mpu6050_publisher.egg-info/PKG-INFO\n'}
+[0.616018] (mpu6050_publisher) StdoutLine: {'line': b'writing dependency_links to mpu6050_publisher.egg-info/dependency_links.txt\n'}
+[0.616494] (mpu6050_publisher) StdoutLine: {'line': b'writing top-level names to mpu6050_publisher.egg-info/top_level.txt\n'}
+[0.621162] (mpu6050_publisher) StdoutLine: {'line': b"reading manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'\n"}
+[0.622051] (mpu6050_publisher) StdoutLine: {'line': b"writing manifest file 'mpu6050_publisher.egg-info/SOURCES.txt'\n"}
+[0.678098] (mpu6050_publisher) StdoutLine: {'line': b'[ 68%] Built target ament_cmake_python_build_mpu6050_publisher_egg\n'}
+[0.680326] (mpu6050_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.683962] (mpu6050_publisher) CommandEnded: {'returncode': 2}
+[0.701204] (-) TimerEvent: {}
+[0.802178] (-) TimerEvent: {}
+[0.820607] (mpu6050_publisher) JobEnded: {'identifier': 'mpu6050_publisher', 'rc': 2}
+[0.832333] (-) EventReactorShutdown: {}

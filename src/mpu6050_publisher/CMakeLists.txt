@@ -12,6 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(Threads REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(i2c REQUIRED)
 
 set(EXECUTABLE_OUTPUT_PATH bin/)
 link_directories(lib/)
